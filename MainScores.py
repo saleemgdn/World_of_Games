@@ -14,13 +14,13 @@ def score_server():
                          "<title>Scores Game</title>" \
                        "</head>" \
                        "<body>" \
-                         "<h1>the score is <div id=\"score\">" + points + "</h1>" \
+                         "<h1>The score is <div id=\"score\">" + points + "</h1>" \
                        "</body>" \
                    "</html>"
     except:
             return "<html>" \
                       "<head>" \
-                        "<title> Scores Game</title>" \
+                        "<title>Scores Game</title>" \
                       "</head>" \
                       "<body>" \
                          "<h1><div id=\"score\" style=\"color:red\">" + str(BAD_RETURN_CODE) + "</h1>" \
