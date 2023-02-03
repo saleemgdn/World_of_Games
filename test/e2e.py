@@ -1,5 +1,4 @@
 from selenium.webdriver.common.by import By
-
 from Utils import SCORES_FILE_NAME, BAD_RETURN_CODE
 from selenium.webdriver.chrome.service import Service
 from selenium import webdriver
